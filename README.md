@@ -37,6 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 # tuts
 
-https://www.youtube.com/watch?v=vCIsrOGNhas&t=12786s
+https://www.youtube.com/watch?v=vCIsrOGNhas&t
 
 # time
