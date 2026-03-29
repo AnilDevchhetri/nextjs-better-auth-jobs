@@ -1,4 +1,7 @@
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,12 +12,20 @@ export default function Home() {
             <h1 className="text-black mb-6 text-6xl font-bold">A betterway to track your job application</h1>
             <p className="text-muted-foreground mb-10 text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat dolorem asperiores nobis earum. Distinctio c</p>
             <div className="flex flex-col items-center gap-4">
-              <button>Get start</button>
-              <p>Lorem ipsum dolor sit amet consec</p>
+              <Link href={"/sign-up"}>
+                <Button size="lg" className="h-12 px-8 text-lg font-medium cursor-pointer">
+                  Get start <ArrowRight className="ml-2" />
+
+                </Button>
+              </Link>
+              <p className="text-sm text-muted-foreground">Lorem ipsum dolor sit amet consec</p>
             </div>
           </div>
         </section>
       </main>
-    </div>
+    </div >
   );
 }
+
+
+//36:00
